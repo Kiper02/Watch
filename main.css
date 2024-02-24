@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Anta:regular);
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: 'Anta', sans-serif;
+}
+
+.container {
+    padding: 200px 200px;
+    height: 100vh;
+}
+
+.watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 36px;
+}
+
+
+
+.time {
+    display: flex;
+    gap: 50px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 130px;
+
+
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.block__flex {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.separation {
+    position: absolute;
+    font-size: 96px;
+    right: -37px;
+    top: -61px;
+
+    color: #fff;
+}
+
+.time__value {
+    font-size: 96px;
+    color: black;
+}
+
