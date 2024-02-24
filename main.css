@@ -14,7 +14,8 @@ body {
 
 .container {
     display: flex;
-    min-width: 1000px;
+    margin: 0 auto;
+    max-width: 1000px;
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -72,3 +73,43 @@ body {
     color: black;
 }
 
+
+
+
+@media (max-width: 500px) {
+
+    body {
+        max-width: 500px;
+    }
+
+    .container {
+        max-width: 300px;
+        
+    }
+
+    .block {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .watch {
+        font-size: 16px;
+    }
+    .time__value {
+        font-size: 30px;
+    }
+
+    .separation {
+        top: -33px;
+        right: -16px;
+        font-size: 40px;
+    }
+
+    .time {
+        gap: 20px;
+    }
+
+    .block__flex {
+        gap: 10px;
+    }
+}
